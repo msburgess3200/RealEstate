@@ -1,5 +1,19 @@
 # Changelog
 
+# Version 1.4.4 (2025-02-19)
+## 🆕 New Features
+- **Added bStats Integration** 📊  
+  - RealEstate now includes [bStats](https://bstats.org/), a lightweight metrics system for Bukkit/Spigot/Paper plugins.
+  - This helps the development team gather **anonymous statistics** such as:
+    - The number of servers using RealEstate
+    - Minecraft versions in use
+    - Plugin version distribution
+  - **Why?**  
+    - Allows us to **prioritize updates** for the most-used Minecraft versions.
+    - Helps track adoption of new features.
+    - No personally identifiable information is collected.
+  - You can **opt out** at any time by disabling bStats in `plugins/bStats/config.yml`.
+
 # Version 1.4.3 (2025-02-14)
 
 ## New Features
